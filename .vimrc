@@ -23,3 +23,5 @@ execute pathogen#infect()
 "filetype plugin indent on
 
 set runtimepath+=~/.vim/bundle/jshint2.vim/
+let jshint2_save = 1
+
