@@ -121,3 +121,5 @@ alias tmux='tmux -2'
 
 export PATH="$PATH:$HOME/bin" 
 export USERNAME=nicoHz
+
+export PATH=$HOME/bin:$PATH

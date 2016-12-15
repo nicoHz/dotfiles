@@ -92,3 +92,7 @@ alias tmux="tmux -2"
 export PATH="$PATH:$HOME/bin" 
 export USERNAME=nicoHz
 
+export PATH=/usr/local/share/npm/bin:$PATH
+# exersism told me to install jasmin-node using npm
+# and configure PATH and update it by adding this line to 
+# .bash_profile or .zshrc
