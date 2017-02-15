@@ -5,6 +5,7 @@ set background=dark
 let g:solarized_termcolors=256
 set t_Co=256
 "call togglebg#map("<F5>") 
+"colorscheme default
 colorscheme solarized
 
 set number
@@ -24,4 +25,5 @@ execute pathogen#infect()
 
 set runtimepath+=~/.vim/bundle/jshint2.vim/
 let jshint2_save = 1
-
+vmap <F3> :w !xsel --clipboard<CR><CR>
+  
