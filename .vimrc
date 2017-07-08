@@ -26,4 +26,6 @@ execute pathogen#infect()
 set runtimepath+=~/.vim/bundle/jshint2.vim/
 let jshint2_save = 1
 vmap <F3> :w !xsel --clipboard<CR><CR>
-  
+
+let g:user_emmet_install_global = 0
+autocmd FileType html,css EmmetInstall
